@@ -6,6 +6,19 @@
 }
 
 
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 
 .container{
     max-width: 1140px;
@@ -38,6 +51,7 @@
 .section-title{
     font-size: 3.2rem;
     font-weight: 700;
+  font-family: "Noto Serif", serif;
 }
 .text-white{
     color:#ffffff;
@@ -252,7 +266,11 @@ header .nav-bar ul li:last-child a{
     }
 
     .branch{
-        padding: 100px 80px 65px;
+        padding: 100px 0 65px;
+    }
+
+    .branch form{
+        max-width: 85%;
     }
     .branch form input[type="submit"]{
         width: 50%;
