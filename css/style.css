@@ -43,6 +43,10 @@
     color:#ffffff;
 }
 
+.text-color{
+    color:rgba(107, 114, 128, 1);
+    font-size: 1rem;
+}
 /* -------------------------------shared style ------------------------------ */
 
 header .nav-bar {
@@ -131,7 +135,7 @@ header .nav-bar ul a{
     background: url(../images/news-letter-bg.png) no-repeat center / cover;
     padding: 200px 100px;
     text-align: center;
-    margin: 100px auto;
+    margin: 80px auto 0;
 
 }
 
@@ -167,4 +171,30 @@ header .nav-bar ul a{
     width: 24%;
     font-size: 1rem;
     border: none;
+}
+
+
+.footer-boxes{
+    display: grid;
+    grid-template-columns: 355px auto auto auto;
+    padding: 50px 15px;
+    justify-content: space-between;
+}
+
+.footer-boxes ul li{
+    list-style: none;
+}
+.footer-boxes .footer-link{
+    color:rgba(107, 114, 128, 1);
+    text-decoration: none;
+    padding-bottom: 32px;
+    display: block;
+    font-weight: 500;
+}
+.social-icons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:24px;
+
 }
