@@ -39,7 +39,9 @@
     font-size: 3.2rem;
     font-weight: 700;
 }
-
+.text-white{
+    color:#ffffff;
+}
 
 /* -------------------------------shared style ------------------------------ */
 
@@ -117,4 +119,52 @@ header .nav-bar ul a{
 }
 .contant-box {
     margin: 38px auto;
+}
+
+/* -----------------------branch -------------------- */
+
+.branch{
+    /* background-image: url(../images/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    background: url(../images/news-letter-bg.png) no-repeat center / cover;
+    padding: 200px 100px;
+    text-align: center;
+    margin: 100px auto;
+
+}
+
+
+.branch form {
+    display: flex;
+    max-width: 830px;
+    margin: auto;
+    margin-top: 23px;
+}
+
+.branch form input{
+    display: inline-block;
+    padding: 15px;
+    border: 0;
+}
+.branch input[type="email"] {
+    width: 75%;
+}
+.branch input[type="submit"] {
+    width: 25%;
+}
+
+.branch form input:focus{
+    border: 0;
+    outline: none;
+}
+
+.branch form input[type="submit"]{
+    color:#ffffff;
+    background-color:rgba(233, 90, 8, 1);
+    padding: 14px 50px;
+    width: 24%;
+    font-size: 1rem;
+    border: none;
 }
