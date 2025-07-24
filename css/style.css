@@ -107,3 +107,14 @@ header .nav-bar ul a{
     margin-top: 20px;
     display: block;
 }
+
+
+/* -----------------------flowerplants ----------------- */
+
+
+.flowerplants{
+    gap:85px;
+}
+.contant-box {
+    margin: 38px auto;
+}
