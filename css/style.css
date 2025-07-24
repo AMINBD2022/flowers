@@ -59,11 +59,19 @@ header .nav-bar ul{
     list-style: none;
 }
 header .nav-bar ul a{
-    color:black;
+    color:rgba(137, 135, 161, 1);
+    font-size: 1.5rem;
+    
     text-decoration: none;
 }
+header .nav-bar ul li:nth-child(1) a{
+    color:rgba(37, 36, 50, 1);
+    font-weight: 700;
+}
 
-
+header .nav-bar ul li:last-child a{
+    color:#000;
+}
 
 /* hero section style start  */
 
@@ -167,9 +175,6 @@ header .nav-bar ul a{
 .branch input[type="email"] {
     width: 75%;
 }
-.branch input[type="submit"] {
-    width: 25%;
-}
 
 .branch form input:focus{
     border: 0;
@@ -180,7 +185,7 @@ header .nav-bar ul a{
     color:#ffffff;
     background-color:rgba(233, 90, 8, 1);
     padding: 14px 50px;
-    width: 24%;
+    width: 25%;
     font-size: 1rem;
     border: none;
 }
@@ -217,9 +222,9 @@ header .nav-bar ul a{
     .section-title{
         font-size: 2.5rem;
     }
-    header{
-        display: none;
-    }
+   .nav-bar ul li:not(:last-child) {
+    display: none;
+  }
 
     .hero-section{
         flex-direction: column-reverse;
@@ -246,8 +251,24 @@ header .nav-bar ul a{
         display: none;
     }
 
-    footer{
-        display: none;
+    .branch{
+        padding: 100px 80px 65px;
+    }
+    .branch form input[type="submit"]{
+        width: 50%;
+        padding: 15px;
+    }
+    
+    .branch form input[type="email"]{
+        width: 50%;
+    }
+
+    .footer-boxes{
+        grid-template-columns: 1fr;
+    }
+    .footer-boxes img{
+        width: auto;
+        margin-bottom: 15px;
     }
     
 }
