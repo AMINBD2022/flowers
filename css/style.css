@@ -120,11 +120,22 @@ header .nav-bar ul a{
 
 .flowerplants{
     gap:85px;
+    margin-top: 18px;
 }
 .contant-box {
     margin: 38px auto;
 }
 
+
+.flowerplants .image-box{
+    position: relative;
+}
+.flowerplants .image-box .trust-badge{
+    position: absolute;
+    width: 60%;
+    top:-150px;
+    right: -100px;
+}
 /* -----------------------branch -------------------- */
 
 .branch{
