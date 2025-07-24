@@ -315,15 +315,36 @@ header .nav-bar ul li:last-child a{
 
 @media screen and (max-width:576px){
     .section-title{
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
+    .section-description , .hero-description{
+        font-size: 0.85rem;
+    }
+    
    .nav-bar ul li:not(:last-child) {
     display: none;
   }
+    .cards .name-flower , .cards   .price{
+    font-size: 1rem; 
+    margin-top: 15px;
+    }
+    .btn-global{
+        margin-top: 15px;
+    }
 
+    /* ---------------some shared css------------------------ */
     .hero-section{
         flex-direction: column-reverse;
         padding: 50px 15px;
+    }
+    .hero-section .hero-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 4rem;
+    margin-bottom: 13px;
+    }
+    .hero-section .hero-title .colorful-text{
+        font-size: 2.5rem;
     }
     img{
         width: 100%;
@@ -338,6 +359,7 @@ header .nav-bar ul li:last-child a{
     .flowerplants{
         flex-direction: column;
         gap: 0;
+        margin-top: 0;
     }
     .flowerplants ul{
         padding-left: 25px;
@@ -345,6 +367,18 @@ header .nav-bar ul li:last-child a{
     .trust-badge{
         display: none;
     }
+
+    .deal-section{
+        margin-top: 0;
+    }
+    .deal-boxes .larg .offer{
+    font-size: 1.25rem;
+    }
+
+    .deal-boxes .larg .shop{
+        font-size: 1rem;
+    }
+
 
     .deal-boxes{
         flex-direction: column;
