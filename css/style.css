@@ -2,6 +2,7 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
+    font-size: 1rem;
 }
 
 
@@ -24,7 +25,6 @@
 .section-description{
     max-width: 780px;
     margin: auto;
-    padding: 20px;
 }
 .btn-global{
     color:#ffffff;
@@ -80,6 +80,7 @@ header .nav-bar ul a{
 }
 .hero-section .hero-title .colorful-text{
     color:#E95A08;
+    font-size: 4rem;
 }
 
 
@@ -208,4 +209,45 @@ header .nav-bar ul a{
     align-items: flex-start;
     gap:24px;
 
+}
+
+/* mobile design start----------------------------------------------- */
+
+@media screen and (max-width:576px){
+    .section-title{
+        font-size: 2.5rem;
+    }
+    header{
+        display: none;
+    }
+
+    .hero-section{
+        flex-direction: column-reverse;
+        padding: 50px 15px;
+    }
+    img{
+        width: 100%;
+    }
+    .hero-title{
+        font-size: 2rem;
+    }
+    .cards{
+        grid-template-columns: repeat(2 , 1fr);
+        gap:20px 10px;
+    }
+    .flowerplants{
+        flex-direction: column;
+        gap: 0;
+    }
+    .flowerplants ul{
+        padding-left: 25px;
+    }
+    .trust-badge{
+        display: none;
+    }
+
+    footer{
+        display: none;
+    }
+    
 }
